@@ -1,9 +1,9 @@
 # CTH-mentorship-Global-Superstore-Project
-Project Overview
+Project Overview:
 This project presents an end-to-end business intelligence and data analytics solution built using the Kaggle Global Superstore dataset. The objective is to analyze sales performance, customer behavior, and profitability patterns across global markets, and to communicate insights through interactive dashboards and visual storytelling.
 The analysis follows best practices in data modeling, descriptive, diagnostic, predictive, and prescriptive analytics, and dashboard design using Microsoft Excel and Power Query.
 
-Dataset Description
+Dataset Description:
 The dataset contains detailed transactional records of a global retail superstore, including:
 Orders, sales, profit, discounts, and shipping costs
 Product categories and sub-categories
@@ -13,23 +13,23 @@ Time attributes (order date, ship date, year, week number)
 
 Source: Kaggle – Global Superstore Dataset
 
-Data Modeling & Preparation
+Data Modeling & Preparation:
 Data cleaning and transformation were carried out using Power Query.
-To ensure analytical accuracy and performance, the dataset was modeled using a star schema:
+To ensure analytical accuracy and performance, the dataset was modeled using a star schema.
 
-Fact Table
+Fact Table:
 Orders: Sales, Profit, Quantity, Discount, Shipping Cost
 Order Date, Ship Date
 These are foreign keys linking to dimensions
 
-Dimension Tables
+Dimension Tables:
 Customers – customer_id, customer_name, segment
 Products – product_id, product_name, category, sub_category
 Location – market, region, country, state, city
 
 This structure prevents data duplication, avoids many-to-many joins, and enables efficient slicing and aggregation.
 
-Types of Analysis Performed
+Types of Analysis Performed:
 1️. Descriptive Analytics (What happened?)
 Sales and profit trends over time
 Category and sub-category performance
@@ -45,9 +45,10 @@ Sales and profit forecasting using historical trends
 4️. Prescriptive Analytics (What should be done?)
 Recommendations for product portfolio optimization
 Market prioritization for expansion
+Customer sales distribution for diversification and growth
 Shipping mode optimization to improve margins
 
-Dashboard Features
+Dashboard Features:
 The Excel dashboard is fully interactive and includes:
 
 KPI cards for Sales, Profit, and Orders,etc
